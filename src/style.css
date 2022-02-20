@@ -4,6 +4,7 @@
   --primary-color: #c4c1e0;
   --secondary-color: #ffe9e3;
   --third-color: #fafafa;
+  --box-shadow: 0px 0px 47px 15px rgba(0, 0, 0, 0.2);
 }
 .hero {
   background-image: url(/media/personal-pic.jpg);
@@ -22,14 +23,98 @@
 }
 .text-1 {
   font-family: var(--primary-font);
-  font-weight: 900;
   font-size: 96px;
 }
 .text-2 {
   font-family: var(--primary-font);
-  font-weight: 700;
   font-size: 48px;
 }
 .text-3 {
   font-family: var(--secondary-font);
+  font-size: 18px;
+}
+.text-4 {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+}
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  max-width: fit-content;
+}
+.btn-branding a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 32px;
+  width: 250px;
+}
+.btn-branding:hover {
+  background-color: var(--secondary-color);
+}
+.btn-branding a:hover {
+  color: var(--primary-color);
+}
+.active-button {
+  background: var(--secondary-color);
+  color: var(--primary-color) !important;
+}
+.navigation {
+  background-color: var(--primary-color);
+}
+.content-container {
+  margin-top: 36px;
+  max-width: 80%;
+}
+.text-title {
+  font-family: var(--primary-font);
+  font-size: 24px;
+  font-weight: 700;
+}
+.text-time {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 600;
+}
+.text-company {
+  font-family: var(--primary-font);
+  font-size: 20px;
+}
+.text-description {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+}
+.content-container-2 {
+  margin-top: 36px;
+  background-color: var(--primary-color);
+  padding: 80px;
+}
+.project-img {
+  box-shadow: var(--box-shadow);
+}
+.card-title {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+.card-text {
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+.card {
+  display: block;
+  margin: 0 auto;
+}
+.card-img-overlay {
+  opacity: 0;
+  color: black;
+  transition: all 4ms ease-in-out;
+}
+.card-img-overlay:hover {
+  opacity: 1;
+  background-color: #e7eff4ef;
+}
+.netlify-link {
+  display: block;
+  margin: 0 auto;
 }
