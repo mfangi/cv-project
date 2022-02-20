@@ -7,8 +7,29 @@
 }
 .hero {
   background-image: url(/media/personal-pic.jpg);
+  background-repeat: no-repeat;
   height: 710px;
+  background-size: 1480px 990px;
+  background-position: 0px -256.727px;
+  background-attachment: fixed;
+  opacity: 0.85;
 }
 .header {
+  position: relative;
+  top: 250px;
+  text-align: center;
+  color: black;
+}
+.text-1 {
+  font-family: var(--primary-font);
+  font-weight: 900;
+  font-size: 96px;
+}
+.text-2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 48px;
+}
+.text-3 {
   font-family: var(--secondary-font);
 }
