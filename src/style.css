@@ -1,0 +1,14 @@
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --primary-color: #c4c1e0;
+  --secondary-color: #ffe9e3;
+  --third-color: #fafafa;
+}
+.hero {
+  background-image: url(/media/personal-pic.jpg);
+  height: 710px;
+}
+.header {
+  font-family: var(--secondary-font);
+}
