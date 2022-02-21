@@ -5,6 +5,7 @@
   --secondary-color: #ffe9e3;
   --third-color: #fafafa;
   --box-shadow: 0px 0px 47px 15px rgba(0, 0, 0, 0.2);
+  --box-shadow-2: 0px 27px 58px 0px rgba(0, 0, 0, 0.3);
 }
 .hero {
   background-image: url(/media/personal-pic.jpg);
@@ -20,6 +21,9 @@
   top: 250px;
   text-align: center;
   color: black;
+}
+.section {
+  box-shadow: var(--box-shadow-2);
 }
 .text-1 {
   font-family: var(--primary-font);
