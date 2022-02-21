@@ -157,7 +157,7 @@
   text-decoration: none;
 }
 .footer-link:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 @media (max-witdh: 480px) {
   .row.footer {
