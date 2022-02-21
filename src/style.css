@@ -63,8 +63,12 @@
   background-color: var(--primary-color);
 }
 .content-container {
-  margin-top: 36px;
   max-width: 80%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.container.master {
+  background-color: var(--secondary-color);
 }
 .text-title {
   font-family: var(--primary-font);
